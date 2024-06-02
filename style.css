@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins","sans serif";
+
+}
+.Hero__Section{
+    background-image: url(zomato.png.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 16px 48px;
+
+}
+.navbar a{
+    color: white;
+    height: 50px;
+    text-decoration: none;
+
+
+
+}
+.navbar__menu_container{
+    display: flex;
+    gap: 18px;
+
+}
+.navbar__menu_container .user_icon{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 100%;
+    border: solid 1px white;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .navbar__menu_container .user_icon{
+        display: flex;
+
+    }
+    .link{
+        display: none;
+
+    }
+
+    .Hero__Section{
+        min-height: 80vh;
+    }
+    
+
+
+}
+.hero__section_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: calc(60vh-65px );
+
+}
+.hero__section_logo{
+    width: 300px;
+    height:auto;
+
+
+}
+    
