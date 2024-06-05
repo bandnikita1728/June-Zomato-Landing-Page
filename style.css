@@ -6,7 +6,7 @@
 
 }
 .Hero__Section{
-    background-image: url(zomato.png.png);
+    background-image: url(photos/zomato.png.png);
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -235,19 +235,19 @@
 }
 
 .card1{
-    background-image: url(collection1.jpg);
+    background-image: url(photos/collection1.jpg);
 }
 
 .card2{
-    background-image: url(collection2.jpg);
+    background-image: url(photos/collection2.jpg);
 }
 
 .card3{
-    background-image: url(collection3.jpg);
+    background-image: url(photos/collection3.jpg);
 }
 
 .card4{
-    background-image: url(collection4.jpg);
+    background-image: url(photos/collection4.jpg);
 }
 .overlay{
     width: 100%;
